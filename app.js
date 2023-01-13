@@ -1,4 +1,4 @@
-var fut = new Date("jan 12, 2023 13:29:00").getTime()
+var fut = new Date("jan 22, 2023 13:29:00").getTime()
 let x = setInterval(function stime(){
     var now = new Date().getTime()
     var D = fut - now
@@ -19,3 +19,9 @@ let x = setInterval(function stime(){
         window.location.href="intro.html"
     }
 }, 0.1);
+
+const btn = document.querySelector('.box-time')
+
+btn.addEventListener('click', function () {
+    window.location.href="intro.html"
+})

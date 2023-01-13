@@ -39,6 +39,7 @@ body{
     line-height: normal;
     width: 530px;
     justify-content: space-between;
+    cursor: pointer;
 }
 .box-time .time{
     position: relative;
